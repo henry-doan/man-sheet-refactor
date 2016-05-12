@@ -33,3 +33,5 @@ while true
   exit(0) if user_input == 'q'
   @menu.each_with_index { |intro, i| puts "#{i + 1}. " + intro}
 end
+
+#add validation
